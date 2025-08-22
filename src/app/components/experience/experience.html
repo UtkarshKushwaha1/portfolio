@@ -1,0 +1,14 @@
+<div class="px-4 sm:px-6 lg:pl-42 pt-8 sm:pt-12 lg:pt-20">
+    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-light mb-6 sm:mb-8">Experience</h2>
+    
+    <div class="max-w-full sm:max-w-4xl lg:w-[60lvw] mx-auto sm:mx-0 lg:ml-20">
+        <om-timeline 
+            styleClass="custom-timeline" 
+            [data]="timelineEntries" 
+            [orientation]="'switch'" 
+            [entryGap]="timelineGap"
+            [pathWidth]="timelinePathWidth" 
+            [titleGap]="timelineTitleGap">
+        </om-timeline>
+    </div>
+</div>

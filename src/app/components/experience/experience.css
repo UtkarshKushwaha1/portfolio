@@ -1,0 +1,30 @@
+/* Component Styling */
+.timeline-title, .timeline-content {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.timeline-content {
+  font-size: 20px;
+}
+
+.timeline-title-only {
+  font-weight: semibold;
+  color: oklch(70.4% 0.191 22.216);
+  font-size: 28px;
+}
+
+.timeline-company-subline{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.timeline-content-time{
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/* Global Styling */
+.custom-timeline .om-timeline-entry-header .om-timeline-circle {
+  background-color: #4caf50;
+}
